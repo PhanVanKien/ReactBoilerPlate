@@ -191,9 +191,8 @@ export class FeaturePage extends React.Component {
             </div>
           </div>
       </div>
-        <div><Button handleRoute={this.openHomePage}>
-          <FormattedMessage {...messages.homeButton} />
-        </Button></div>
+          <div className={classNames('row',styles.close_comment)}></div>
+      </div>
       </div>
       </div>
     );
