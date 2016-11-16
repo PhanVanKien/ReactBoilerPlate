@@ -1,0 +1,77 @@
+.div_num{
+  text-align: center;
+}
+
+.num_img{
+  width: 100px;
+  height: 100px;
+}
+
+.num1_img{
+  padding-left: 150px;
+  color: #666666;
+  font: 16px regular;
+}
+
+.num3_img{
+  padding-right: 160px;
+}
+
+.p_under_num{
+  margin-top: 38px;
+  color: #343434;
+  font-family: Arial;
+}
+
+.number2{
+  width: 33%;
+}
+
+.div_groupNum{
+  display: block;
+  float: none;
+  margin-top: 65px;
+}
+
+.div_dexuat{
+  margin: 34px 0px 0px 60px;
+  width: 180px;
+
+}
+
+ .div_ungho{
+  width: 260px;
+  margin: 34px 0px 0px 92px;
+
+}
+
+.div_coquan{
+  width: 195px;
+  margin-left: 36px;
+}
+
+.p_hr{
+  float: left;
+  margin: 60px 0px 0px 120px;
+  height: 1px;
+  width: 1190px;
+  text-decoration: underline;
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .num1_img{
+      padding-left: 0px;
+    }
+
+    .number2{
+      width: auto;
+    }
+
+    .num3_img{
+      padding-right: 0px;
+    }
+}

@@ -1,0 +1,53 @@
+.header_custom{
+  margin-top: 33px;
+  width: 220px;
+}
+.header_navigation{
+  padding-top: 42px;
+  padding-bottom: 18px;
+  width: 340px;
+}
+.div_nav{
+  width: 100px;
+}
+.city{
+
+  display: none;
+}
+.span_cacdexuat{
+  font-size: 40px;
+}
+.under_line{
+  width: 80px;
+  color: black;
+}
+
+.span_1{
+  border-bottom: 4px solid #03a9f5;
+  color: #03a9f5;
+}
+
+.content_left{
+  float: left;
+  padding: 33px 0px 0px 135px;
+  width: 877px;
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .content_left{
+      float: left;
+      padding-top: 30px;
+      padding-left: 0px;
+      font-size: 11px;
+    }
+
+    .listRight{
+      width: 375px;
+    }
+
+
+}

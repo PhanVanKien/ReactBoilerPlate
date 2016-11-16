@@ -1,0 +1,21 @@
+﻿*{padding:0;margin:0;list-style:none;font-size:12px;font-family:Arial,sans-serif,Tahoma; text-decoration:none;}
+/*SpOnl*/
+.spOnl {top:280px; right:0px; position:fixed}
+.spOnl p#SpText {background:url(../img/bgSpOnl.png) repeat-x;height: 34px; line-height:34px;border-radius:6px;-moz-transform:rotate(-90deg)}
+.spOnl p#SpText a {font-size:13px; font-weight:bold;color:#fff;text-transform:uppercase; padding:0 15px 0 15px;background:url(../img/icon_SpOnl.png) no-repeat right center; margin-right:10px;}
+.spOnl #SpButton a#btnHotro {background:url(../img/btnSp.png) no-repeat; height:164px; width:34px; display:block; z-index:99999;cursor:pointer; position:absolute;top:0;right:0}
+.spOnl #SpButton #ctSp {position:fixed;width:210px; top:260px; height:290px; right:-210px;z-index:999999;}
+
+.spOnl #SpButton #ctSp p#bgThugon {background:url(../img/bgThugon.png) repeat-x; height:18px; width:65px; border:1px solid #cfc0a7; line-height:18px; margin:0px;}
+.spOnl #SpButton #ctSp p#bgThugon a#btnThugon {background:url(../img/icon_Thugon.png) no-repeat right center; padding-right:15px; color:#000; font-size:11px; margin-left:5px; cursor:pointer;}
+.spOnl #SpButton #ctSp #wrapSp {background:#f8f5f0;border:1px solid #cfc0a7;}
+.spOnl #SpButton #ctSp p {margin-left:20px; margin-bottom:10px;}
+.spOnl #SpButton #ctSp a {margin:0 5px;  }
+.spOnl #SpButton #ctSp .iYahoo {background:url(../img/yahooOl.png) no-repeat center center; height:16px; width:16px;display:inline-block; line-height:16px;}
+.spOnl #SpButton #ctSp .iSpyke {background:url(../img/skype.png) no-repeat center center; height:16px; width:16px;display:inline-block; line-height:16px;}
+.spOnl #SpButton #ctSp .iYahooOf {background:url(../img/yahooOf.png) no-repeat center center; height:16px; width:16px;display:inline-block; line-height:16px;}
+.spOnl #SpButton #ctSp .iSpykeOf {background:url(../img/skypeOf.png) no-repeat center center; height:16px; width:16px;display:inline-block; line-height:16px;}
+.spOnl #SpButton #ctSp .cel {background:url(../img/cel.png) no-repeat center center; height:14px; width:19px;display:inline-block; line-height:14px; margin:0 17px;}
+.spOnl #SpButton #ctSp .mob {background:url(../img/tel.png) no-repeat center center; height:14px; width:19px;display:inline-block; line-height:14px; margin:0 17px;}
+.spOnl #SpButton #ctSp .hl {background:url(../img/icon_phone.png) no-repeat; height:32px; width:48px;display:inline-block; line-height:32px; margin:0 3px;vertical-align:middle; float:left;}
+.spOnl #SpButton #ctSp span {color:#bd1f4f;font-weight:bold;text-transform:uppercase;}

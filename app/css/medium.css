@@ -1,0 +1,11 @@
+@media screen {
+  body {
+    width: 100%;
+  }
+}
+
+@media print {
+  body {
+    width: 100%;
+  }
+}

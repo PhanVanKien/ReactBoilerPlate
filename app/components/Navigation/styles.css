@@ -1,0 +1,53 @@
+.navgation{
+  height: 70px;
+  background-color: #03a9f5;
+}
+
+.nav1{
+  float: left;
+  padding-left: 135px;
+  margin-top: 25px;
+}
+
+.nav2{
+  margin-right: 135px;
+}
+
+.span_nav{
+  color: #fff;
+  font-size: 19px;
+}
+
+.ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  font-size: 18px;
+  color: white;
+}
+
+.li{
+  float: left;
+}
+
+.li_dangnhap{
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 7px 0px;
+}
+
+.li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  margin-top: 9px;
+  color: white;
+}
+
+.img_dangnhap{
+  width: 146px;
+  height: 51px;
+}

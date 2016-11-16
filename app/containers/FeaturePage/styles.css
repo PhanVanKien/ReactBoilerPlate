@@ -1,0 +1,306 @@
+.wrapper{
+  background: #fff;
+  margin: 0px ;
+  font-family: Arial;
+  font-size: 15px;
+}
+.list {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  padding-left: 1.75em;
+}
+
+.listItem {
+  margin: 1em 0;
+}
+
+.listItemTitle {
+  font-weight: bold;
+}
+.header_left{
+  float:left;
+  margin-left: 135px;
+  margin-top: 19px;
+  font-size: 42px;
+}
+.header_right{
+  float:right;
+  width: 50%;
+  height: 56px;
+  margin-right: 135px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+.header_right ul{
+  text-decoration-style: none;
+  list-style-type: none
+
+}
+.header_right ul li{
+  float: left;
+}
+.cus_row{
+  float:left;
+  width: 100%;
+  margin-top: 30px;
+}
+.luot{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #888888;
+  float:left;
+}
+/*.li_name{
+  float:center;
+  margin-left: 20px;
+  height: 50px;
+  width: 50%;
+}*/
+.div_content_left{
+  float:left;
+  width: 870px;
+  background: #fff;
+  text-align: justify;
+  font-size: 15px;
+  font-family: arial;
+  margin-top: 40px;
+  margin-left: 135px;
+  font-size: 16px;
+}
+.div_content_right{
+  float: right;
+  background: #fff;
+  height: 400px;
+  padding-left: 20px;
+}
+.cus_img{
+  width: 100%;
+  height: 200px;
+}
+.slide_cus{
+  width: 100%;
+    margin-bottom: 30px;margin-left: 20px;
+}
+.like_img{
+  width: 21px;
+  height:21px;
+  margin-right: 15px;
+}
+.table_li{
+  border-style: groove;
+  height: 250px;
+  margin-top: 15px;
+}
+.table_li_binhluan{
+  border-style: groove;
+  height: 120px;
+}
+.table_li_binhluan_cm{
+  border-style: groove;
+  height: 120px;
+}
+.div_left{
+  width: 100%;
+  float:left;
+  margin-top: 10px;
+}
+
+.li_name{
+  margin-left: 20px;
+  padding-left: 70px;
+  margin-top: 20px;
+  font-size: 15px;
+  width: 300px
+}
+span{
+  font-family: Arial;
+}
+.div_content{
+  float:left;
+  width: 870px;
+  font-size: 15px;
+}
+.seeExtend{
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.myProgress {
+  position: relative;
+  width: 270px;
+  height: 10px;
+  background-color: #ddd;
+  margin: 15px 0px;
+}
+
+.myBar {
+
+  width: 50%;
+  height: 100%;
+  background-color: #41ADDD;
+}
+.table_li_binhluan{
+  border-style: groove;
+  width: 260px;
+  height: 150px;
+}
+.img_icon{
+  width: 35px;
+  height: 35px;
+}
+.div_share{
+  text-align: center;
+  height: 40px;
+  margin-top: 15px;
+  width: 270px;
+}
+.div_img_1{
+  width: 30%;
+  float: left;
+  padding-left: 50px;
+}
+.div_img_2{
+  width: 30%;
+  float: left;
+  margin-left: 20px;
+}
+.div_img_3{
+  width: 30%;
+  float: left;
+  padding-right: 40px;
+}
+.cus_body{
+
+}
+.nav_one{
+  height: 81px;
+  display: block;
+}
+.img_account{
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px;
+}
+
+
+.header_right_nav{
+  float:right;
+
+}
+.li1{
+  margin-right: 40px;
+}
+.li2{
+  margin-right: 40px;
+}
+.text_page{
+  font-size: 45px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 272px;
+  width: 900px;
+  margin-bottom: 0px;
+}
+.group_text{
+  width: 400px;
+  height: 70px;
+  display: block;
+  float: left;
+  margin-left: 562px;
+}
+.binh_luan{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.div_gui{
+  border: 2px solid #41ADDD;
+  width: 200px;
+  height: 50px;
+  margin: 20px 0px;
+  padding-top: 10px;
+  float: right;
+  margin-top: 0px;
+}
+.img_kyten{
+  width: 280px;
+  height: 80px;
+}
+.luot_ky_ten{
+  font-size: 24px;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: 40px;
+}
+.p_content{
+  text-indent: 30px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+.p_row{
+  margin-left: 10px;
+
+}
+.
+.reply_name{
+  float: left;
+    width: 300px;
+    margin-top: 20px;
+    color: #666666;
+}
+.span_phut{
+  color: #888888;
+}
+.content_fix{
+  margin-right: 18px;
+  font-size: 18px;
+}
+.name_traloi{
+  padding-top: 25px;
+  width: 500px;
+}
+.unghodexuat{
+  margin-top: 20px;
+}
+.form_ungho{
+  width: 270px;
+}
+.p_capnhap{
+  font-size: 54px;
+  font-family: Arial;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.form_bl{
+  width: 870px;
+}
+.liked_c{
+  margin-top: 5px;
+}
+
+.mypro{
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 0px 0;
+  width: 270px;
+}
+.luotungho{
+  margin-top:30px;
+}
+.cycle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #666666;
+  float:left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.hr{
+  border: 0;
+    border-top: 1px solid #eee;
+    margin: 0px 0;
+    width: 270px;
+}
+.bt_kyten{
+  width: 270px;
+  height: 80px;
+}

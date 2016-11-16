@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<body>
+
+<div class="w3-container">
+  <h2>Tabs in a Grid</h2>
+
+  <div class="w3-row">
+    <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">London</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Paris</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Tokyo</div>
+    </a>
+  </div>
+
+
+</div>
+
+<script>
+function openCity(evt) {
+  var i, x, tablinks;
+
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < 3; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+  }
+  //document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-border-red";
+}
+</script>
+
+</body>
+</html>
