@@ -41,15 +41,16 @@ export class FeaturePage extends React.Component {
           ]}
         />
       <div className={styles.nav_one}>
-          <div className={styles.header_left}><p>MXH - CHÍNH QUYỀN</p></div>
-          <div className={styles.header_right}>
-              <div className={styles.header_right_nav}><ul><li className={styles.li1}>
+          <div className={classNames(styles.header_left)}><font>MXH - CHÍNH QUYỀN</font></div>
+          <div className={classNames(styles.header_right)}>
+              <div className={styles.header_right_nav}>
+                <ul><li className={styles.li1}>
                 Viết ̣̣đề xuất
               </li><li className={styles.li2}>Tìm kiếm</li>
-            <li><Img src={icon_ac} className={styles.img_account}/>Nguyễn Dức Vinh<Img src={icon_up} className={styles.img_account}/></li></ul></div>
+            <li className={styles.li3}><Img src={icon_ac} className={styles.img_account}/>Nguyễn Dức Vinh<Img src={icon_up} className={styles.img_account}/></li></ul></div>
           </div>
       </div>
-      <div><hr/></div>
+      <div className={styles.hr_top}><hr/></div>
       <div className={styles.cus_body}>
       <div className={styles.cus_row}>
         <div className={styles.text_page}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sit amet consectetuer.</div>
@@ -97,14 +98,14 @@ export class FeaturePage extends React.Component {
             <div className={classNames('row',styles.p_row,styles.p_capnhap)}>Cập Nhập</div>
             <div className={classNames('row',styles.p_row)}>
                 <div className={Style.div_left_db_2}>
-                    <p className={Style.cycle}></p>
+                    <p className={Style.cycle_db}></p>
                     <p className={styles.name_traloi}><span className={Style.span_name}>Nguyễn Việt Hà, <i>Đại diện bộ GTVT trả lời</i></span></p>
                 <div className={Style.div_content_db2}>
                     <p className={Style.header_content_db}><span>Lorem ipsum dolor sit amet, consecte adipiscing elit.</span></p>
                     <p className={styles.content_fix}>
                       <span>Lorem ipsum dolor sit amet, consecte adipiscing elit. Aenean commodo ligula egiet dolor. Asenean massa. Cum sociis natoque penatibus et magisn dis partureinet montest, Lorem ipsum dolor sit amet, consecte adipiscing elit. Aenean commodo ligula
                         nascetur ridiculus mus</span></p>
-                    <div><p className={Style.seeExtend_db}><span>xem thêm</span></p>
+                    <div><p className={Style.seeExtend}><span>xem thêm</span></p>
                     </div>
                 </div>
                 </div>
@@ -128,8 +129,8 @@ export class FeaturePage extends React.Component {
                   <p className={styles.li_name}><span className={styles.span_name}>Nguyễn Đức Vinh<br/>15 phút trước</span>
                   </p>
                 <div className={styles.div_content}>
-                    <p>Một dấu hiệu nữa cần quan sát đó là tỷ lệ cử tri đi bỏ phiếu so với năm 2012, nhất là ở những khu vực tập trung đông người Mỹ gốc Phi, người gốc la tinh, cử tri trẻ tuổi và người gia trắng có học thức. Đây là chỉ báo đặc biệt quan trọng tại 4 bang không nghiêng hẳn theo đảng nào và sẽ có kết quả sớm nhất.</p>
-                    <p>
+                    <font>Một dấu hiệu nữa cần quan sát đó là tỷ lệ cử tri đi bỏ phiếu so với năm 2012, nhất là ở những khu vực tập trung đông người Mỹ gốc Phi, người gốc la tinh, cử tri trẻ tuổi và người gia trắng có học thức. Đây là chỉ báo đặc biệt quan trọng tại 4 bang không nghiêng hẳn theo đảng nào và sẽ có kết quả sớm nhất.</font>
+                    <p className={styles.ic_liked}>
                       <Img src={liked} className={styles.like_img}/>
                     <span className={styles.liked_c}>1,000,000</span></p>
                     <hr/>
@@ -142,10 +143,10 @@ export class FeaturePage extends React.Component {
                   <p className={styles.li_name}><span className={styles.span_name}>Nguyễn Đức Vinh<br/>15 phút trước</span>
                   </p>
                 <div className={styles.div_content}>
-                    <p>Một dấu hiệu nữa cần quan sát đó là tỷ lệ cử tri đi bỏ phiếu so với năm 2012, nhất là ở những khu vực tập trung đông người Mỹ gốc Phi, người gốc la tinh, cử tri trẻ tuổi và người gia trắng có học thức. Đây là chỉ báo đặc biệt quan trọng tại 4 bang không nghiêng hẳn theo đảng nào và sẽ có kết quả sớm nhất.</p>
-                    <p>
-                      <Img src={liked} className={styles.like_img}/>
-                    <span className={styles.liked_c}>1,000,000</span></p>
+                    <font>Một dấu hiệu nữa cần quan sát đó là tỷ lệ cử tri đi bỏ phiếu so với năm 2012, nhất là ở những khu vực tập trung đông người Mỹ gốc Phi, người gốc la tinh, cử tri trẻ tuổi và người gia trắng có học thức. Đây là chỉ báo đặc biệt quan trọng tại 4 bang không nghiêng hẳn theo đảng nào và sẽ có kết quả sớm nhất.</font>
+                      <p className={styles.ic_liked}>
+                        <Img src={liked} className={styles.like_img}/>
+                      <span className={styles.liked_c}>1,000,000</span></p>
                     <hr/>
                 </div>
               </div>
@@ -156,16 +157,16 @@ export class FeaturePage extends React.Component {
                   <p className={styles.li_name}><span className={styles.span_name}>Nguyễn Đức Vinh<br/>15 phút trước</span>
                   </p>
                 <div className={styles.div_content}>
-                    <p>Một dấu hiệu nữa cần quan sát đó là tỷ lệ cử tri đi bỏ phiếu so với năm 2012, nhất là ở những khu vực tập trung đông người Mỹ gốc Phi, người gốc la tinh, cử tri trẻ tuổi và người gia trắng có học thức. Đây là chỉ báo đặc biệt quan trọng tại 4 bang không nghiêng hẳn theo đảng nào và sẽ có kết quả sớm nhất.</p>
-                    <p>
-                      <Img src={liked} className={styles.like_img}/>
-                    <span className={styles.liked_c}>1,000,000</span></p>
+                    <font>Một dấu hiệu nữa cần quan sát đó là tỷ lệ cử tri đi bỏ phiếu so với năm 2012, nhất là ở những khu vực tập trung đông người Mỹ gốc Phi, người gốc la tinh, cử tri trẻ tuổi và người gia trắng có học thức. Đây là chỉ báo đặc biệt quan trọng tại 4 bang không nghiêng hẳn theo đảng nào và sẽ có kết quả sớm nhất.</font>
+                      <p className={styles.ic_liked}>
+                        <Img src={liked} className={styles.like_img}/>
+                      <span className={styles.liked_c}>1,000,000</span></p>
                     <hr/>
                 </div>
               </div>
             </div>
           </div>
-          <div className={classNames('col-md-3 col-sm-3',styles.div_content_right)}>
+          <div className={classNames('col-md-3 col-sm-12',styles.div_content_right)}>
             <div className={classNames('row')}>
               <p className={styles.luot_ky_ten}>Lượt ký tên</p>
               <hr className={classNames(styles.hr,styles.luotungho)}/>
@@ -191,9 +192,8 @@ export class FeaturePage extends React.Component {
             </div>
           </div>
       </div>
-          <div className={classNames('row',styles.close_comment)}></div>
       </div>
-      </div>
+      <div className={classNames('row',styles.close_comment)}></div>
       </div>
     );
   }
