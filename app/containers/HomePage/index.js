@@ -46,6 +46,7 @@ import btnDeXuat from './vietdexuat.jpg';
 import classNames from 'classnames';
 import Banner from '../App/mxh_cp.jpg';
 import A from 'components/A';
+import Logo from 'components/Logo';
 
 export class HomePage extends React.Component {
   /**
@@ -92,25 +93,37 @@ export class HomePage extends React.Component {
     }
 
     return (
-      <article className={classNames(styles.bg_article)}>
+      <article>
         <Helmet
           title="Home Page"
           meta={[
             { name: 'description', content: 'A React.js Boilerplate application homepage' },
           ]}
         />
-        <A className={styles.logoWrapper} href="http://dantri.com.vn/">
-            <Img className={styles.logo} src={Banner} alt="react-boilerplate - Logo" />
-          </A>
-          <Navigation/>
-          <div>
-              <Button handleRoute={this.openFeaturesPage} className={styles.button_dexuat}>
-                  <Img src={btnDeXuat} alt="VietDeXuat" className={styles.img_vietdexuat}/>
-              </Button>
+        <section>
+          <div className={classNames('container-fuild')}>
+            <div className={classNames('row',styles.banner)}>
+              <div className={classNames('col-xs-12')}>
+                <A href="http://dantri.com.vn/">
+                <img className={classNames('img-responsive')} src={Banner} alt="react-boilerplate - Logo" />
+              </A></div>
+            </div>
           </div>
-          <NavMiddlePage/>
-          <ContentLeft/>
-          <ContentRight/>
+        </section>
+        <Navigation/>
+        <section>
+          <div className={classNames('container-fuild')}>
+            <Button handleRoute={this.openFeaturesPage} className={styles.button_dexuat}>
+              <Img src={btnDeXuat} alt="VietDeXuat" className={styles.img_vietdexuat}/>
+            </Button>
+          </div>
+        </section>
+        <section>
+          <div className={classNames('container-fuild')}><NavMiddlePage/></div>
+        </section>
+        <section><div className={classNames('container-fuild')}><ContentLeft/></div></section>
+        <section>
+          <div className={classNames('container-fuild')}><ContentRight/></div></section>
       </article>
     );
   }
