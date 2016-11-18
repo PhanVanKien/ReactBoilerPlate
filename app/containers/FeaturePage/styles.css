@@ -1,11 +1,10 @@
 .wrapper{
   background: #fff;
   margin: 0px ;
-  font-family: Arial;
-  font-size: 15px;
+  font:15px Arial,Georgia, Times, 'Times New Roman', serif;
 }
+
 .list {
-  font-family: Georgia, Times, 'Times New Roman', serif;
   padding-left: 1.75em;
 }
 
@@ -18,16 +17,14 @@
 }
 .header_left{
   float:left;
-  margin-left: 135px;
-  margin-top: 19px;
-  font-size: 42px;
+  margin: 19px 0px 0px 135px;
+  font-size: 37px;
 }
 .header_right{
   float:right;
   width: 50%;
   height: 56px;
-  margin-right: 135px;
-  margin-top: 40px;
+  margin: 40px 100px 0px 0px;
   font-size: 18px;
 }
 .header_right ul{
@@ -41,7 +38,6 @@
 .cus_row{
   float:left;
   width: 100%;
-  margin-top: 30px;
 }
 .luot{
   width: 50px;
@@ -58,24 +54,26 @@
 }*/
 .div_content_left{
   float:left;
-  width: 870px;
+  width: 760px;
   background: #fff;
   text-align: justify;
   font-size: 15px;
   font-family: arial;
   margin-top: 40px;
-  margin-left: 135px;
+  margin-left: 90px;
   font-size: 16px;
+  padding: 0px;
 }
 .div_content_right{
   float: right;
-  background: #fff;
-  height: 400px;
-  padding-left: 20px;
+    background: #fff;
+    height: 400px;
+    margin-right: 50px;
 }
 .cus_img{
   width: 100%;
   height: 200px;
+  padding: 0px;
 }
 .slide_cus{
   width: 100%;
@@ -100,14 +98,14 @@
   height: 120px;
 }
 .div_left{
-  width: 100%;
+  width: 770px;
   float:left;
   margin-top: 10px;
 }
 
 .li_name{
   margin-left: 20px;
-  padding-left: 70px;
+  padding-left: 50px;
   margin-top: 20px;
   font-size: 15px;
   width: 300px
@@ -117,7 +115,7 @@ span{
 }
 .div_content{
   float:left;
-  width: 870px;
+  width: 770px;
   font-size: 15px;
 }
 .seeExtend{
@@ -153,15 +151,16 @@ span{
   margin-top: 15px;
   width: 270px;
 }
+
 .div_img_1{
   width: 30%;
   float: left;
-  padding-left: 50px;
+  padding-left: 57px;
 }
 .div_img_2{
   width: 30%;
   float: left;
-  margin-left: 20px;
+  margin-left: 17px;
 }
 .div_img_3{
   width: 30%;
@@ -193,19 +192,17 @@ span{
   margin-right: 40px;
 }
 .text_page{
-  font-size: 45px;
-  text-align: center;
-  margin-top: 30px;
-  margin-left: 272px;
-  width: 900px;
-  margin-bottom: 0px;
+    font-size: 42px;
+    text-align: center;
+    margin: 60px 0px 0px 200px;
+    width: 870px;
 }
 .group_text{
   width: 400px;
   height: 70px;
   display: block;
   float: left;
-  margin-left: 562px;
+  margin: 49px 0px 0px 562px;
 }
 .binh_luan{
   margin-top: 15px;
@@ -255,6 +252,7 @@ span{
 }
 .name_traloi{
   padding-top: 25px;
+  margin-left: 80px;
   width: 500px;
 }
 .unghodexuat{
@@ -270,7 +268,7 @@ span{
   margin-top: 10px;
 }
 .form_bl{
-  width: 870px;
+  width: 770px;
 }
 .liked_c{
   margin-top: 5px;
@@ -291,7 +289,7 @@ span{
   border-radius: 50%;
   background: #666666;
   float:left;
-  margin-left: 15px;
+  margin-left: 0px;
   margin-top: 10px;
 }
 .hr{
@@ -306,4 +304,107 @@ span{
 }
 .close_comment{
   margin-bottom: 103px;
+}
+.ic_liked{
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .cus_row{
+    width: 100%;
+  }
+  .header_left{
+    margin: 19px 0px 0px 30px;
+  }
+
+  .hr_top{
+    width: 100%;
+  }
+
+  .div_content_right{
+      width: 100%;
+      padding-left:70px;
+      height: auto;
+  }
+
+  .header_right_nav{
+    width: 100%;
+  }
+
+  .div_content_left{
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .div_content{
+      width: 100%;
+  }
+
+  .div_left{
+    width: 350px;
+  }
+
+  .form_bl{
+    width: 350px;
+  }
+
+  .div_content_db2{
+      margin-left: 18px;
+      margin-top: 20px;
+      width: 350px;
+  }
+
+  .name_traloi{
+    width: 350px;
+  }
+  .span_name{
+    width: 350px;
+  }
+  .group_text{
+    width: 100%;
+    height: 70px;
+    display: block;
+    float: left;
+    margin: 49px 0px 0px 150px;
+  }
+
+  .text_page{
+      font-size: 42px;
+      text-align: center;
+      margin: 60px 0px 0px 20px;
+      width: 100%;
+  }
+
+  .l1{
+    float: left;
+    width: 100%;
+  }
+
+.l2{
+  width: 100%;
+  float: left;
+  margin-left: 10px;
+}
+  .l3{
+    float: right;
+    width: 100%;
+  }
+
+  .hr_top hr{
+      border-top-width: 0px;
+  }
+
+  .header_right{
+    float: left;
+    width: 100%;
+  }
+
+  .header_right_nav ul{
+    width: 100%;
+    font-size: 15px;
+    height: 60px;
+    float: left;
+    margin-left: 100px;
+  }
 }
