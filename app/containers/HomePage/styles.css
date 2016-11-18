@@ -1,17 +1,15 @@
-.wrapper {
-  display: flex;
-  min-height: 100%;
+.banner Img{
   width: 1440px;
-  flex-direction: column;
+  height: 329px;
 }
-
 .logo {
-  width: 100%;
-  margin: 0 auto;
-  display: block;
-  height: 339px;
+  width: 1440px;
+  height: 329px;
 }
 
+.del_padding{
+    padding: 0px;
+}
 
 .textSection {
   margin: 3em auto;
@@ -145,17 +143,14 @@ span{
   font-family: "Arial";
 }
 
-
-
 .div_button_dexuat{
   padding-top: 52px;
 }
 
-.img_vietdexuat{
-  width: 370px;
+.button_dexuat Img{
+  width: 360px;
   height: 100px;
-}
-.button_dexuat{
+  padding: 0;
   margin-top: 60px;
 }
 
@@ -200,10 +195,41 @@ a:visited{
   font-weight: bold;
 }
 
+@media only screen and (max-width: 500px) {
+
+  .img_vietdexuat{
+    width: 100%;
+  }
+
+  .banner img{
+      height:  200px;
+  }
+
+  .link{
+    width: 100%;
+    height: 100px;
+  }
+
+}
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
+
+
+    .del_padding{
+        width: 100%;
+        height: 100px;
+    }
+
+    .ul{
+        font-size: 11px;
+    }
+
+    .logo{
+      width: 100%;
+      height: 100px;
+    }
 
     .navgation{
       height: 60px;
@@ -228,10 +254,11 @@ a:visited{
     .nav2{
       width: 375px;
       height: 50px;
-      font-size: 12px;
+      float: left;
     }
     .nav2 a{
-      font-size: 12px;
+      font-size: 11px;
+      background-color: #03a9f5;
     }
     .content_left{
       padding-left: 0px;
@@ -249,11 +276,11 @@ a:visited{
       float: none;
     }
 
-    .button_dexuat{
+    .button_dexuat img{
       width: 150px;
       float: left;
-      margin-top: 20px;
-      margin-left: 100px;
+      margin-top:120px;
+      margin-left: 0px;
     }
     .img_vietdexuat{
       width: 150px;
