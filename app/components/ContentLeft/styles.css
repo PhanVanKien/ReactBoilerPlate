@@ -3,8 +3,8 @@
   width: 220px;
 }
 .header_navigation{
-  padding-top: 42px;
-  padding-bottom: 18px;
+  padding-top: 24px;
+  padding-bottom: 23px;
   width: 340px;
 }
 .div_nav{
@@ -20,17 +20,37 @@
 .under_line{
   width: 80px;
   color: black;
+  float: left;
 }
 
 .span_1{
   border-bottom: 4px solid #03a9f5;
   color: #03a9f5;
 }
+.span_2{
+    float: right;
+}
 
 .content_left{
   float: left;
-  padding: 33px 0px 0px 135px;
-  width: 877px;
+  padding: 33px 0px 0px 105px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .content_left{
+    padding: 0px !important;
+    width: 200px;
+  }
+
+  .listRight{
+    width: 200px;
+  }
+
+  .span_cacdexuat{
+    padding-top: 50px;
+  }
+
 }
 
 @media only screen
@@ -40,14 +60,7 @@
 
     .content_left{
       float: left;
-      padding-top: 30px;
-      padding-left: 0px;
-      font-size: 11px;
+      width: 100%;
     }
-
-    .listRight{
-      width: 375px;
-    }
-
-
+    
 }
