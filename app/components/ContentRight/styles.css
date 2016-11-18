@@ -2,17 +2,17 @@
   border: 0;
   border-top: 1px solid #eee;
   margin: 0px 0;
-  width: 270px;
+      width: 235px;
 }
 .cus_list_content{
   padding-top: 40px;
   font-size: 22px;
   font-weight: bold;
-  padding-left: 18px;
+  padding-left: 25px;
 }
 
 .form_search{
-  width: 287px;
+  width: 257px;
   height: 60px;
 }
 
@@ -38,14 +38,13 @@
 }
 
 .content_right{
-  float: right;
-  margin: 40px 50px 0px 0px;
-
+  margin: 50px 0px 0px 0px;
+  padding-left: 40px;
 }
 
 .div_timdexuat{
   float: left;
-  width: 70%;
+  width: 200px;
 }
 
 @media only screen
@@ -56,4 +55,24 @@
     .content_right{
         float:none;
     }
+}
+
+@media screen and (max-width: 500px) {
+
+  .content_left{
+    padding: 0px !important;
+    width: 200px;
+  }
+
+  .content_right{
+      padding: 0px 10px !important;
+  }
+
+  .listRight{
+    width: 200px;
+  }
+
+  .form_search{
+    width: 260px;
+  }
 }
