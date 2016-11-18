@@ -1,10 +1,9 @@
 /* Global styles */
 
-html,
-body {
-  height: 100%;
+html,body {
   width: 100%;
-  background: #fff;
+  height: 100%;
+  background: #ffffff;
 }
 
 body {
@@ -16,23 +15,18 @@ body.fontLoaded {
 }
 
 :global(#app) {
-  background-color: #FAFAFA;
+  background-color: #ffffff;
   min-height: 100%;
   min-width: 100%;
 }
 
 .wrapper {
-  display: flex;
-  min-height: 100%;
-  width: 1440px;
-  flex-direction: column;
-}
-
-.logo {
   width: 100%;
   margin: 0 auto;
-  display: block;
-  height: 339px;
+  display: flex;
+  min-height: 100%;
+  padding: 0;
+  flex-direction: column;
 }
 
 @media only screen
@@ -40,45 +34,5 @@ body.fontLoaded {
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-    a{
-        width: 375px;
-        height: auto;
-    }
-
-    .logo {
-      width: 100%;
-      margin: 0 auto;
-      display: block;
-      height: 150px;
-    }
-
-    html,
-    body {
-      height: 100%;
-      width: 100%;
-      background: #fff;
-    }
-
-    body {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    }
-
-    body.fontLoaded {
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    }
-
-    :global(#app) {
-      background-color: #FAFAFA;
-      min-height: 100%;
-      min-width: 100%;
-    }
-
-    .wrapper {
-      width: 375px;
-      display: flex;
-      min-height: 100%;
-      margin: 0px 15px;
-      flex-direction: column;
-    }
-
+    
 }
